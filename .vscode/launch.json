@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-UnadopcionApplication<unadopcion>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.unadopcion.unadopcion.UnadopcionApplication",
+            "projectName": "unadopcion",
+            "args": ""
+        }
+    ]
+}
