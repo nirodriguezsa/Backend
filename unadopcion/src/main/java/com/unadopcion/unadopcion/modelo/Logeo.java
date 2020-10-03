@@ -1,6 +1,5 @@
 package com.unadopcion.unadopcion.modelo;
 
-import org.hibernate.annotations.DynamicUpdate;
 
 import javax.persistence.*;
 

@@ -22,7 +22,9 @@ public class LogeoControlador {
     private Integer logeoId;
 
     @RequestMapping("/crearusuario")
-    public String crearNuevoUsuario(@RequestParam String nombre, String contrasena, String telefono){
+    public String crearNuevoUsuario(@RequestParam String nombre,
+                                    @RequestParam String contrasena,
+                                    @RequestParam String telefono){
          //crea registro logeo primero
          if(!logeoServicio.existsByNombre(nombre))
          {
@@ -39,7 +41,7 @@ public class LogeoControlador {
 
 
     }
-
+    //esto es para poner en usuarioControlador
     @GetMapping("/buscausuario/{id}")
     public Optional<Usuario> buscarUsuario(@PathVariable Integer id){
 
