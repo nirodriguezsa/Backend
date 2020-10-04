@@ -19,6 +19,7 @@ public class LogeoControlador {
     private LogeoServicio logeoServicio;
     @Autowired
     private UsuarioServicio usuarioServicio;
+<<<<<<< HEAD
     private Integer logeoId;
 
     @RequestMapping("/crearusuario")
@@ -36,12 +37,33 @@ public class LogeoControlador {
          }else{
 
              return "El nombre de usuario " + nombre + " ya existe";
+=======
+    private Integer logeo_id;
+
+    @RequestMapping("/crearusuario")
+    public String crearNuevoUsuario(@RequestParam String nombre, String contrasena, String telefono){
+         //crea registro logeo primero
+         if(true) //TODO: verificar que usuario no este repetido
+         {
+             Logeo logeo = logeoServicio.crearLogeo(nombre, contrasena);
+             logeo_id = logeo.getLogeo_id();
+             //crear usuario con el id del logeo
+             Usuario usuario = usuarioServicio.crearUsuario(logeo_id,  nombre, telefono);
+             return "ID nuevo usuario: " + usuario.getUsuario_id();
+         }else{
+
+             return "El nombre de usuario ya existe";
+>>>>>>> restaurado
          }
 
 
 
     }
+<<<<<<< HEAD
     //esto es para poner en usuarioControlador
+=======
+
+>>>>>>> restaurado
     @GetMapping("/buscausuario/{id}")
     public Optional<Usuario> buscarUsuario(@PathVariable Integer id){
 
