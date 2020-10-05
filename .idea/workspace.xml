@@ -21,8 +21,14 @@
   <component name="ChangeListManager">
     <list default="true" id="891c51d3-ec72-48b6-a48d-b5db5a572b84" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unadopcion/src/main/resources/static/denuncia.html" beforeDir="false" afterPath="$PROJECT_DIR$/unadopcion/src/main/resources/static/denuncia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unadopcion/src/main/resources/static/js/denuncia.js" beforeDir="false" afterPath="$PROJECT_DIR$/unadopcion/src/main/resources/static/js/denuncia.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unadopcion/src/main/resources/static/PLANTILLA.html" beforeDir="false" afterPath="$PROJECT_DIR$/unadopcion/src/main/resources/static/View/PLANTILLA.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unadopcion/src/main/resources/static/autenticar.html" beforeDir="false" afterPath="$PROJECT_DIR$/unadopcion/src/main/resources/static/View/autenticar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unadopcion/src/main/resources/static/cuidados.html" beforeDir="false" afterPath="$PROJECT_DIR$/unadopcion/src/main/resources/static/View/cuidados.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unadopcion/src/main/resources/static/denuncia.html" beforeDir="false" afterPath="$PROJECT_DIR$/unadopcion/src/main/resources/static/View/denuncia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unadopcion/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/unadopcion/src/main/resources/static/View/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unadopcion/src/main/resources/static/principal.html" beforeDir="false" afterPath="$PROJECT_DIR$/unadopcion/src/main/resources/static/View/principal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unadopcion/src/main/resources/static/registrar-mascota.html" beforeDir="false" afterPath="$PROJECT_DIR$/unadopcion/src/main/resources/static/View/registrar-mascota.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unadopcion/src/main/resources/static/registrar.html" beforeDir="false" afterPath="$PROJECT_DIR$/unadopcion/src/main/resources/static/View/registrar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Proyectos/practica-validacion-formularios" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,27 +66,46 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tatys\Documents\2020-II\Ingenieria Software II\UNAdopcion\Backend\unadopcion\src\main\resources\static\View" />
       <recent name="C:\Users\tatys\Documents\2020-II\Ingenieria Software II\UNAdopcion\Backend\unadopcion\src\main\resources\static\css" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JavaScript Debug.registrar-mascota.html">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="denuncia.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Backend/unadopcion/src/main/resources/static/denuncia.html" useBuiltInWebServerPort="true">
+    <configuration name="autenticar.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Backend/unadopcion/src/main/resources/static/View/autenticar.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="cuidados.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Backend/unadopcion/src/main/resources/static/View/cuidados.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="denuncia.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Backend/unadopcion/src/main/resources/static/View/denuncia.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="registrar-mascota.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Backend/unadopcion/src/main/resources/static/View/registrar-mascota.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="registrar.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Backend/unadopcion/src/main/resources/static/View/registrar.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.registrar-mascota.html" />
         <item itemvalue="JavaScript Debug.denuncia.html" />
+        <item itemvalue="JavaScript Debug.registrar.html" />
+        <item itemvalue="JavaScript Debug.cuidados.html" />
+        <item itemvalue="JavaScript Debug.autenticar.html" />
       </list>
     </recent_temporary>
   </component>
@@ -93,6 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601902177021</updated>
       <workItem from="1601902178195" duration="11451000" />
+      <workItem from="1601927648122" duration="7008000" />
     </task>
     <servers />
   </component>
@@ -109,6 +135,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1601914130473">
