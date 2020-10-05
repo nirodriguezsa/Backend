@@ -1,13 +1,20 @@
-$(document).on('change','.btn-file :file',function(){
-    var input = $(this);
-    var numFiles = input.get(0).files ? input.get(0).files.length : 1;
-    var label = input.val().replace(/\\/g,'/').replace(/.*\//,'');
-    input.trigger('fileselect',[numFiles,label]);
-});
-$(document).ready(function(){
-    $('.btn-file :file').on('fileselect',function(event,numFiles,label){
-        var input = $(this).parents('.input-group').find(':text');
-        var log = numFiles > 1 ? numFiles + ' files selected' : label;
-        if(input.length){ input.val(log); }else{ if (log) alert(log); }
-    });
-});
+function validar() {
+    var usuario, nombre;
+    usuario = document.getElementById("usuario").value;
+    nombre = document.getElementById("nombre").value;
+
+    expresion = /\w+@\w+\.+[a-z]/;
+
+    if (usuario === "" || nombre=== ""){
+        alert("Todos los campos son obligatorios");
+        return false;
+    }
+    else if (usuario.length>20){
+        alert("El usuario solo debe tener 20 caracteres como máximo ");
+        return false;
+    }
+    else if (nombre.length>30){
+        alert("El nombre es muy largo");
+        return false;
+    }
+}
