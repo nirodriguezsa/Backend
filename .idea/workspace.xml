@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="891c51d3-ec72-48b6-a48d-b5db5a572b84" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unadopcion/src/main/resources/static/denuncia.html" beforeDir="false" afterPath="$PROJECT_DIR$/unadopcion/src/main/resources/static/denuncia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unadopcion/src/main/resources/static/js/denuncia.js" beforeDir="false" afterPath="$PROJECT_DIR$/unadopcion/src/main/resources/static/js/denuncia.js" afterDir="false" />
-    </list>
+    <list default="true" id="891c51d3-ec72-48b6-a48d-b5db5a572b84" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +59,7 @@
       <recent name="C:\Users\tatys\Documents\2020-II\Ingenieria Software II\UNAdopcion\Backend\unadopcion\src\main\resources\static\css" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.registrar-mascota.html">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -75,11 +71,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="denuncia.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Backend/unadopcion/src/main/resources/static/denuncia.html" useBuiltInWebServerPort="true">
+    <configuration name="denuncia.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Backend/unadopcion/src/main/resources/static/view/denuncia.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="registrar-mascota.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Backend/unadopcion/src/main/resources/static/view/registrar-mascota.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.registrar-mascota.html" />
         <item itemvalue="JavaScript Debug.denuncia.html" />
       </list>
     </recent_temporary>
@@ -93,6 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601902177021</updated>
       <workItem from="1601902178195" duration="11451000" />
+      <workItem from="1601936484525" duration="15000" />
     </task>
     <servers />
   </component>
@@ -109,6 +110,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1601914130473">
