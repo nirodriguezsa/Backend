@@ -77,11 +77,17 @@ transform: scale(1.1);
 }
 
 .imagen{
-display:block;
-margin:auto;
+	display:block;
+	margin:auto;
 }
 
 .divM{
-color: #000000;
-border:7px solid
+	color: #000000;
+	border:6px solid;
+}
+
+h2,h3{
+	color:#000000;
+	font-weight: bold;
+	text-align: left;
 }
