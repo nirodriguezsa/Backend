@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="891c51d3-ec72-48b6-a48d-b5db5a572b84" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/unadopcion/src/main/resources/static/denuncia.html" beforeDir="false" afterPath="$PROJECT_DIR$/unadopcion/src/main/resources/static/denuncia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unadopcion/src/main/resources/static/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/unadopcion/src/main/resources/static/css/estilos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unadopcion/src/main/resources/static/js/denuncia.js" beforeDir="false" afterPath="$PROJECT_DIR$/unadopcion/src/main/resources/static/js/denuncia.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601902177021</updated>
-      <workItem from="1601902178195" duration="8241000" />
+      <workItem from="1601902178195" duration="8865000" />
     </task>
     <servers />
   </component>
