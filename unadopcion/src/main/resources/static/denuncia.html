@@ -18,6 +18,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
             integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
             crossorigin="anonymous"></script>
+
+
 </head>
 
 <body>
@@ -60,23 +62,16 @@
                             <br><p class="texto" > Llene los campos de la persona a denuncias, a continuación escoja las opciones de acuerdo al caso de maltrato del cual usted ha sido testigo:</p><br>
                             <form class="form-horizontal" role="form">
                                 <div class="form-group">
-                                    <label class="control-label col-sm-2" for="cedula">Cedula:</label>
+                                    <label class="control-label col-sm-2" for="usuario">Usuario:</label>
                                     <div class="col-sm-10">
-                                        <input type="Cedula" class="form-control" id="cedula" placeholder="Ingrese su numero de cedula">
+                                        <input type="text" class="form-control" id="usuario" placeholder="Ingrese el identificador del usuario a denunciar">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label col-sm-2" for="nombre">Nombre:</label>
                                     <div class="col-sm-10">
-                                        <input type="nombre" class="form-control" id="nombre" placeholder="Ingrese nombres y apellidos">
+                                        <input type="text" class="form-control" id="nombre" placeholder="Ingrese nombres y apellidos">
                                     </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="control-label col-sm-2" for="sexo">Sexo:</label>
-                                    <div class="col-sm-10">
-                                        <input type="sexo" class="form-control" id="sexo" placeholder="Ingrese sexo">
-                                    </div>
-
                                 </div>
 
                                 <br><div class="container">
@@ -149,7 +144,7 @@
 
                                 <div class="form-group">
                                     <div class="col-sm-offset-2 col-sm-10">
-                                        <button type="button" class="btn btn-success">Denunciar</button>
+                                        <button type="submit" class="btn btn-success">Denunciar</button>
                                     </div>
                                 </div>
                             </form>
@@ -198,6 +193,8 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
         crossorigin="anonymous"></script>
+        <script src="./node_modules/axios/dist/axios.min.js"></script>
+        <script type="text/javascript" src="js/denuncia.js"></script>
 </body>
 
 </html>
