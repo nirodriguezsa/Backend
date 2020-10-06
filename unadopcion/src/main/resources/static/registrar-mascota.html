@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
             integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
             crossorigin="anonymous"></script>
@@ -69,62 +69,60 @@
                 <br>
                 <form>
 
-                    <div class="form-group">
-                        <div class="input-group">
-                            <div class="input-group-addon">ID mascota: </div>
-                            <input type="number" class="form-control" id="id_mascota" placeholder="id_mascota">
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <div class="input-group">
-                            <div class="input-group-addon">Nombre: </div>
-                            <input type="text" class="form-control" id="nombre" placeholder="Nombre">
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <div class="input-group">
-                            <div class="input-group-addon">Tipo: </div>
-                            <input type="text" class="form-control" id="tipo" placeholder="tipo">
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <div class="input-group">
-                            <div class="input-group-addon">Edad aproximada: </div>
-                            <input type="number" class="form-control" id="edad" placeholder="Edad">
-                        </div>
-                    </div>
+                  <div class="row form-group">
+                      <label class="col-sm-2 col-form-label">ID mascota</label>
+                      <div class="col-sm-10">
+                          <input type="number" class="form-control" id="id_mascota" placeholder="id_mascota">
+                      </div>
+                  </div>
 
 
-                    <div class="form-group">
-                        <div class="input-group">
-                            <div class="input-group-addon">Sexo:</div>
-                            <select class="custom-select" id="inlineFormCustomSelect" id="sexo" placeholder="Sexo">
-                                <option selected>Seleccione</option>
-                                <option value="1">Hembra</option>
-                                <option value="2">Macho</option>
-                            </select>
-                        </div>
-                    </div>
+                  <div class="row form-group">
+                      <label class="col-sm-2 col-form-label">Nombre</label>
+                      <div class="col-sm-10">
+                          <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                      </div>
+                  </div>
 
 
-                    <div class="form-group">
-                        <div class="input-group">
-                            <div class="input-group-addon">Lugar:</div>
-                            <input type="text" class="form-control" id="lugar" placeholder="Lugar">
-                        </div>
-                    </div>
+                  <div class="row form-group">
+                      <label class="col-sm-2 col-form-label">Tipo</label>
+                      <div class="col-sm-10">
+                          <input type="text" class="form-control" id="tipo" placeholder="tipo">
+                      </div>
+                  </div>
 
+                  <div class="row form-group">
+                      <label class="col-sm-2 col-form-label">Edad</label>
+                      <div class="col-sm-10">
+                          <input type="number" class="form-control" id="edad" placeholder="Edad aproximada">
+                      </div>
+                  </div>
 
-                    <div class="form-group">
-                        <div class="input-group">
-                            <div class="input-group-addon">Comment:</div>
-                            <textarea class="form-control" rows="5" id="comment" placeholder="Comment"></textarea>
-                        </div>
-                    </div>
+                  <div class="row form-group">
+                      <label class="col-sm-2 col-form-label">Sexo</label>
+                      <div class="col-sm-10">
+                        <select class="custom-select" id="inlineFormCustomSelect" id="sexo" placeholder="Sexo">
+                            <option selected>Seleccione</option>
+                            <option value="1">Hembra</option>
+                            <option value="2">Macho</option>
+                        </select>
+                      </div>
+                  </div>
 
+                  <div class="row form-group">
+                      <label class="col-sm-2 col-form-label">Lugar</label>
+                      <div class="col-sm-10">
+                          <input type="text" class="form-control" id="lugar" placeholder="Lugar">
+                      </div>
+                  </div>
+
+                  <div class="row form-group">
+                      <label class="col-sm-2 col-form-label">Comment</label>
+                      <div class="col-sm-10">
+                          <textarea class="form-control" rows="5" id="comment" placeholder="Comment"></textarea>
+                      </div>
+                  </div>
                 </form>
             </div>
 
@@ -167,6 +165,38 @@
                 </div>
 
                 <div class="col-md-1"></div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<div class="row align-items-center">
+    <div class="col-3 mt-4">
+        <div class="text-center">
+            <img src="img/Logo.jpeg" alt="Logo de UNadopción" width="100" height="100">
+        </div>
+    </div>
+    <div class="col-1"></div>
+    <div class="col-8 mt-4 ">
+        <div class="text-right">
+            <div class="" height="100" width="100">
+                <a href="" class="mx-2">
+                    <img src="img/whatsapp.jpg" alt="whatsapp" height="50" width="50">
+                </a>
+                <a href="" class="mx-2">
+                    <img src="img/facebook.png" alt="facebook" height="50" width="50">
+                </a>
+                <a href="" class="mx-2 ">
+                    <img src="img/gmail.png" alt="gmail" height="50" width="50">
+                </a>
+                <a href="" class="mx-2 ">
+                    <img src="img/patita.png" alt="patita" height="50" width="50">
+                </a>
+                <a href="" class="mx-2 ">
+                    <img src="img/instagram.png" alt="instagram" height="50" width="50">
+                </a>
             </div>
         </div>
     </div>
