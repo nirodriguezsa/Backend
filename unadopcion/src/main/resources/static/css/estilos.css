@@ -19,7 +19,7 @@ body::before{
   top: 0;
   left: 0;
 
-  background: linear-gradient(90deg, #F3E2A9, #EFFBFB,#58FA58);
+  background: linear-gradient(45deg, #F3E2A9, #EFFBFB,#58FA58);
 	background-attachment: scroll;
   opacity: 0.5;
   z-index: -1;
