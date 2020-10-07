@@ -4,11 +4,27 @@
 body{
 	margin: 10px;
 	padding: 20px;
-	background: #F9F6DF;
 	font-family: sans-serif;
-	/*background: url(../img/gray.jpg) no-repeat;*/
+	min-height: 100vh;
+  background-image: url("../img/fondo_patitas.jpg");
+  background-attachment: fixed;
 	text-align: justify;
 }
+
+body::before{
+  content: "";
+  width: 100%;
+  min-height:150vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background: linear-gradient(45deg, #F7BE81, #8181F7,#58FA58);
+	background-attachment: scroll;
+  opacity: 0.5;
+  z-index: -1;
+}
+
 h1{
 	color: #fff;
 	text-align: center;
